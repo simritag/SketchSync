@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://sketch-magic-sync.lovable.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" as="image" href="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/logo-DljnZrLd.png"><link rel="preload" as="image" href="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/hero-canvas-BJK3PXET.jpg"><link rel="stylesheet" href="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/styles-DE_6oXGw.css" data-precedence="default"><link rel="stylesheet" href="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/css2" data-precedence="default"><title>SketchSync — Collaborate Like You're in the Same Room</title><meta property="og:title" content="SketchSync — Collaborate Like You&#39;re in the Same Room"><meta property="og:description" content="AI-powered collaborative whiteboard. Turn rough sketches into polished diagrams in real-time."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="SketchSync — Collaborate Like You&#39;re in the Same Room"><meta name="twitter:description" content="AI-powered collaborative whiteboard. Turn rough sketches into polished diagrams in real-time."><meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a11c15c0-7863-46fb-859a-74bd25064ce4"><meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a11c15c0-7863-46fb-859a-74bd25064ce4"><meta name="description" content="AI-powered collaborative whiteboard. Turn rough sketches into polished diagrams in real-time with multiplayer brainstorming."><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/index-C9oV7t7H.js"><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/index-BRG8IumC.js"><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/Logo-8eM0SmgQ.js"><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/type-CnEvBAYw.js"><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/users-tL6K9rcp.js"><link rel="modulepreload" href="https://sketch-magic-sync.lovable.app/assets/createLucideIcon-CSMmYgYo.js"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous">
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg);
+		color: var(--badge-text);
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow);
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer="" src="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/_flock.js.download" data-proxy-url="/~api/analytics"></script></head><body><!--$--><div class="min-h-screen bg-surface-dark text-foreground"><nav class="fixed top-0 w-full z-50 border-b border-hairline bg-surface-dark/80 backdrop-blur-md"><div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"><a aria-label="SketchSync home" class="flex items-center  active" href="https://sketch-magic-sync.lovable.app/" data-status="active" aria-current="page"><img src="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/logo-DljnZrLd.png" alt="SketchSync" width="160" height="40" class="h-9 w-auto object-contain"></a><div class="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground"><a href="https://sketch-magic-sync.lovable.app/#features" class="hover:text-foreground transition-colors">Product</a><a href="https://sketch-magic-sync.lovable.app/#how" class="hover:text-foreground transition-colors">How it works</a><a href="https://sketch-magic-sync.lovable.app/#pricing" class="hover:text-foreground transition-colors">Pricing</a></div><div class="flex items-center gap-3"><a href="https://sketch-magic-sync.lovable.app/login" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors px-3 py-2">Log in</a><a href="https://sketch-magic-sync.lovable.app/signup" class="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-white/90 transition-colors shadow-xl">Get Started</a></div></div></nav><section class="relative pt-32 pb-20 px-6 overflow-hidden"><div class="absolute inset-0 dot-bg opacity-50 [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]"></div><div class="relative max-w-5xl mx-auto text-center"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-brand/20 bg-brand/5 text-brand-light text-xs font-semibold mb-6 animate-fade-in"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-brand"></span></span>Now with AI Shape Intelligence</div><h1 class="text-5xl md:text-7xl font-bold text-foreground tracking-tight mb-8 leading-[1.05] animate-fade-up">Collaborate Like You're<br><span class="bg-gradient-to-r from-brand via-brand-light to-cyan-accent bg-clip-text text-transparent">in the Same Room</span></h1><p class="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">Turn messy napkin sketches into professional system architectures in seconds. The first whiteboard that thinks as fast as your team.</p><div class="flex flex-wrap justify-center gap-4 mb-20"><a href="https://sketch-magic-sync.lovable.app/signup" class="bg-brand hover:bg-brand-light text-primary-foreground px-8 py-4 rounded-xl font-bold transition-all shadow-brand active:scale-[0.98]">Start Collaborating Free</a><a href="https://sketch-magic-sync.lovable.app/#how" class="bg-surface-card border border-hairline hover:border-white/20 text-foreground px-8 py-4 rounded-xl font-bold transition-all">Watch Product Demo</a></div><div class="relative mx-auto max-w-6xl group"><div class="absolute -inset-1 bg-gradient-to-r from-brand to-cyan-accent rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div><div class="relative bg-surface-card rounded-2xl border border-hairline overflow-hidden shadow-2xl"><div class="h-12 border-b border-hairline bg-white/5 flex items-center px-4 justify-between"><div class="flex gap-1.5"><div class="size-3 rounded-full bg-red-500/20 border border-red-500/40"></div><div class="size-3 rounded-full bg-yellow-500/20 border border-yellow-500/40"></div><div class="size-3 rounded-full bg-green-500/20 border border-green-500/40"></div></div><div class="text-[10px] text-muted-foreground/70 font-mono tracking-widest uppercase">Session: architecture_sync_04</div><div class="flex -space-x-2"><div class="size-6 rounded-full border-2 border-surface-card bg-zinc-700"></div><div class="size-6 rounded-full border-2 border-surface-card bg-brand"></div><div class="size-6 rounded-full border-2 border-surface-card bg-emerald-500"></div></div></div><img src="./SketchSync — Collaborate Like You&#39;re in the Same Room_files/hero-canvas-BJK3PXET.jpg" alt="SketchSync collaborative whiteboard showing a rough sketch transforming into a polished diagram" width="1920" height="1080" class="w-full aspect-video object-cover"></div></div></div></section><section id="features" class="max-w-7xl mx-auto px-6 py-24"><div class="grid md:grid-cols-3 gap-6"><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-brand/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles size-5 text-brand" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></div><h3 class="text-xl font-bold text-foreground mb-3">AI Smart Sketching</h3><p class="text-muted-foreground leading-relaxed">Sketch a messy rectangle and watch it snap into a perfectly aligned UI component or flow node.</p></div><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-cyan-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users size-5 text-cyan-accent" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg></div><h3 class="text-xl font-bold text-foreground mb-3">Live Multiplayer</h3><p class="text-muted-foreground leading-relaxed">Zero-latency collaboration with precise cursor tracking and instant state synchronization.</p></div><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-white/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download size-5 text-foreground" aria-hidden="true"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg></div><h3 class="text-xl font-bold text-foreground mb-3">One-Click Export</h3><p class="text-muted-foreground leading-relaxed">Instantly turn your whiteboards into high-fidelity PDF, PNG, or Figma-ready SVG files.</p></div><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-brand/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard size-5 text-brand" aria-hidden="true"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg></div><h3 class="text-xl font-bold text-foreground mb-3">Workspace Dashboard</h3><p class="text-muted-foreground leading-relaxed">Organize sessions, invite teammates, and jump back into recent boards in one tap.</p></div><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-white/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon size-5 text-foreground" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg></div><h3 class="text-xl font-bold text-foreground mb-3">Dark Mode Native</h3><p class="text-muted-foreground leading-relaxed">An interface engineered for long, focused sessions — without burning your retinas.</p></div><div class="p-8 rounded-3xl bg-white/[0.03] border border-hairline hover:border-brand/50 transition-colors group"><div class="size-12 bg-cyan-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wand-sparkles size-5 text-cyan-accent" aria-hidden="true"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"></path><path d="m14 7 3 3"></path><path d="M5 6v4"></path><path d="M19 14v4"></path><path d="M10 2v2"></path><path d="M7 8H3"></path><path d="M21 16h-4"></path><path d="M11 3H9"></path></svg></div><h3 class="text-xl font-bold text-foreground mb-3">Toolbox Built for Flow</h3><p class="text-muted-foreground leading-relaxed">Pen, shapes, text, sticky notes, and an AI Enhance button — all one keystroke away.</p></div></div></section><section id="how" class="bg-surface-card/40 py-24 border-y border-hairline"><div class="max-w-7xl mx-auto px-6"><div class="text-center mb-16"><h2 class="text-4xl md:text-5xl font-bold text-foreground mb-4 tracking-tight">From chaos to clarity in seconds</h2><p class="text-muted-foreground max-w-2xl mx-auto">Three steps from your first scribble to a polished, shareable diagram.</p></div><div class="grid md:grid-cols-3 gap-8"><div class="relative p-8 rounded-3xl bg-surface-dark border border-hairline"><div class="font-mono text-xs text-brand mb-4">01<!-- --> / 03</div><h3 class="text-xl font-bold text-foreground mb-3">Draw freely</h3><p class="text-muted-foreground text-sm leading-relaxed">Mouse, trackpad, or tablet — get your raw ideas onto the canvas without friction.</p></div><div class="relative p-8 rounded-3xl bg-surface-dark border border-hairline"><div class="font-mono text-xs text-brand mb-4">02<!-- --> / 03</div><h3 class="text-xl font-bold text-foreground mb-3">AI enhances</h3><p class="text-muted-foreground text-sm leading-relaxed">Click Enhance. Shapes snap, lines straighten, text becomes legible — instantly.</p></div><div class="relative p-8 rounded-3xl bg-surface-dark border border-hairline"><div class="font-mono text-xs text-brand mb-4">03<!-- --> / 03</div><h3 class="text-xl font-bold text-foreground mb-3">Ship the spec</h3><p class="text-muted-foreground text-sm leading-relaxed">Export to PNG, PDF, or share a live collaboration link with your team.</p></div></div></div></section><section class="py-24"><div class="max-w-7xl mx-auto px-6"><div class="flex flex-col md:flex-row gap-12 items-center"><div class="flex-1"><h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight tracking-tight">Manage projects with<br>unprecedented clarity.</h2><div class="space-y-6"><div class="flex gap-4"><div class="size-6 shrink-0 rounded-full bg-brand/20 flex items-center justify-center text-brand text-xs font-bold">1</div><div><h4 class="text-foreground font-semibold">Centralized Workspace</h4><p class="text-muted-foreground text-sm">Organize sessions by client, team, or project phase.</p></div></div><div class="flex gap-4"><div class="size-6 shrink-0 rounded-full bg-brand/20 flex items-center justify-center text-brand text-xs font-bold">2</div><div><h4 class="text-foreground font-semibold">Version Control</h4><p class="text-muted-foreground text-sm">Rewind your canvas to any point in the brainstorming session.</p></div></div><div class="flex gap-4"><div class="size-6 shrink-0 rounded-full bg-brand/20 flex items-center justify-center text-brand text-xs font-bold">3</div><div><h4 class="text-foreground font-semibold">Team Activity</h4><p class="text-muted-foreground text-sm">See who's editing, commenting, and shipping in real time.</p></div></div></div><a href="https://sketch-magic-sync.lovable.app/dashboard" class="mt-10 inline-flex items-center gap-2 text-brand font-bold hover:text-brand-light group">Explore the Dashboard<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 group-hover:translate-x-1 transition-transform" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div><div class="flex-1 w-full"><div class="bg-surface-card border border-hairline rounded-2xl p-6 shadow-2xl"><div class="flex items-center justify-between mb-6"><h3 class="text-foreground font-bold">Recent Whiteboards</h3><button class="text-xs bg-brand/10 text-brand px-3 py-1 rounded-md font-semibold">New Board +</button></div><div class="grid grid-cols-2 gap-4"><div class="bg-white/[0.03] rounded-xl p-3 border border-hairline"><div class="w-full aspect-[4/3] bg-gradient-to-br from-brand/30 to-transparent bg-surface-dark rounded-lg mb-3 grid-bg"></div><div class="text-sm font-medium text-foreground truncate">App Redesign V2</div><div class="text-[10px] text-muted-foreground">Edited 2m ago</div></div><div class="bg-white/[0.03] rounded-xl p-3 border border-hairline"><div class="w-full aspect-[4/3] bg-gradient-to-br from-cyan-accent/30 to-transparent bg-surface-dark rounded-lg mb-3 grid-bg"></div><div class="text-sm font-medium text-foreground truncate">Onboarding Flow</div><div class="text-[10px] text-muted-foreground">Edited 4h ago</div></div><div class="bg-white/[0.03] rounded-xl p-3 border border-hairline"><div class="w-full aspect-[4/3] bg-gradient-to-br from-fuchsia-500/30 to-transparent bg-surface-dark rounded-lg mb-3 grid-bg"></div><div class="text-sm font-medium text-foreground truncate">API Architecture</div><div class="text-[10px] text-muted-foreground">Edited yesterday</div></div><div class="bg-white/[0.03] rounded-xl p-3 border border-hairline"><div class="w-full aspect-[4/3] bg-gradient-to-br from-emerald-500/30 to-transparent bg-surface-dark rounded-lg mb-3 grid-bg"></div><div class="text-sm font-medium text-foreground truncate">Brand System</div><div class="text-[10px] text-muted-foreground">Edited 3d ago</div></div></div><div class="mt-6 pt-6 border-t border-hairline flex items-center gap-3"><div class="flex -space-x-2"><div class="size-7 rounded-full border-2 border-surface-card bg-brand"></div><div class="size-7 rounded-full border-2 border-surface-card bg-cyan-accent"></div><div class="size-7 rounded-full border-2 border-surface-card bg-emerald-500"></div></div><span class="text-xs text-muted-foreground">3 teammates active now</span></div><div class="sr-only"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen" aria-hidden="true"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-type" aria-hidden="true"><path d="M12 4v16"></path><path d="M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2"></path><path d="M9 20h6"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sticky-note" aria-hidden="true"><path d="M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"></path><path d="M15 3v5a1 1 0 0 0 1 1h5"></path></svg></div></div></div></div></div></section><section class="py-24 border-t border-hairline"><div class="max-w-7xl mx-auto px-6"><h2 class="text-center text-3xl md:text-4xl font-bold text-foreground mb-16 tracking-tight">Loved by teams that move fast</h2><div class="grid md:grid-cols-3 gap-6"><figure class="p-8 rounded-3xl bg-surface-card border border-hairline"><blockquote class="text-foreground/90 leading-relaxed mb-6">"<!-- -->SketchSync replaced four tools in our workflow. Our remote standups finally feel like the whiteboard sessions I miss from the office.<!-- -->"</blockquote><figcaption class="flex items-center gap-3"><div class="size-10 rounded-full bg-gradient-to-br from-brand to-cyan-accent"></div><div><div class="text-sm font-semibold text-foreground">Maya Reyes</div><div class="text-xs text-muted-foreground">Head of Design, Loom Labs</div></div></figcaption></figure><figure class="p-8 rounded-3xl bg-surface-card border border-hairline"><blockquote class="text-foreground/90 leading-relaxed mb-6">"<!-- -->The AI shape recognition is genuinely shocking. I scribble, it ships a diagram. That's the entire product loop.<!-- -->"</blockquote><figcaption class="flex items-center gap-3"><div class="size-10 rounded-full bg-gradient-to-br from-cyan-accent to-emerald-500"></div><div><div class="text-sm font-semibold text-foreground">Alex Chen</div><div class="text-xs text-muted-foreground">Staff Engineer, Linear</div></div></figcaption></figure><figure class="p-8 rounded-3xl bg-surface-card border border-hairline"><blockquote class="text-foreground/90 leading-relaxed mb-6">"<!-- -->We onboarded our 30-person product org in an afternoon. The dashboard makes session ownership obvious.<!-- -->"</blockquote><figcaption class="flex items-center gap-3"><div class="size-10 rounded-full bg-gradient-to-br from-fuchsia-500 to-brand"></div><div><div class="text-sm font-semibold text-foreground">Priya Sundaram</div><div class="text-xs text-muted-foreground">PM, Notion</div></div></figcaption></figure></div></div></section><section id="pricing" class="py-24 border-t border-hairline"><div class="max-w-4xl mx-auto px-6 text-center"><div class="relative p-12 rounded-3xl bg-surface-card border border-hairline overflow-hidden"><div class="absolute -inset-px bg-gradient-to-br from-brand/20 via-transparent to-cyan-accent/20 pointer-events-none"></div><div class="relative"><h2 class="text-4xl md:text-5xl font-bold tracking-tight text-foreground mb-4">Start free. Scale when you grow.</h2><p class="text-muted-foreground mb-10 max-w-xl mx-auto">Unlimited personal boards. Team plans starting at $12/user/month. Pricing details coming soon.</p><div class="flex flex-wrap justify-center gap-4"><a href="https://sketch-magic-sync.lovable.app/signup" class="bg-brand hover:bg-brand-light text-primary-foreground px-8 py-4 rounded-xl font-bold transition-all shadow-brand">Start Free</a><a href="https://sketch-magic-sync.lovable.app/dashboard" class="bg-white/5 border border-hairline hover:border-white/20 text-foreground px-8 py-4 rounded-xl font-bold transition-all">Try the Demo</a></div></div></div></div></section><footer class="py-12 border-t border-hairline"><div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8"><div class="flex items-center gap-2 opacity-60"><div class="size-6 bg-brand rounded flex items-center justify-center"><div class="size-3 bg-white rounded-sm rotate-45"></div></div><span class="text-lg font-bold tracking-tight text-foreground">SketchSync</span></div><div class="flex gap-8 text-sm text-muted-foreground"><a href="https://sketch-magic-sync.lovable.app/#" class="hover:text-foreground transition-colors">Twitter</a><a href="https://sketch-magic-sync.lovable.app/#" class="hover:text-foreground transition-colors">GitHub</a><a href="https://sketch-magic-sync.lovable.app/#" class="hover:text-foreground transition-colors">Privacy</a><a href="https://sketch-magic-sync.lovable.app/#" class="hover:text-foreground transition-colors">Terms</a></div><div class="text-sm text-muted-foreground/70">© <!-- -->2026<!-- --> SketchSync AI Inc.</div></div></footer></div><!--/$-->
+<aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+	<a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/5a1f9cf4-081c-46ca-b1a0-b39b0efd6ef4?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"></path>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"></path>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"></path>
+  <defs>
+    <radialgradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"></stop>
+      <stop offset=".394" stop-color="#FE3F21"></stop>
+      <stop offset=".608" stop-color="#F858BC"></stop>
+      <stop offset=".929" stop-color="#575ECF"></stop>
+    </radialgradient>
+  </defs>
+</svg>
+
+
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"></path>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body></html>
